@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body, button, input{
+    font-family: Poppins;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    font-size: 40px;
+}
+
+.search-task, .add-task{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    width: 100%;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+}
+.task-item{
+    display: flex;
+    height: 100px;
+    width: 200px;
+    border: 1px solid gray;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.error-task{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
